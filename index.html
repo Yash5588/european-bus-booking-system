@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European bus booking system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>EUROPEAN BUS TRANSPORT SYSTEM</h1>
+    <form action="/submit" method="post">
+        <label for="departure_station" >Choose departure station: </label>
+        <select name="departure_station" id="departure_station">
+            <option value="london">London</option>
+            <option value="moscow">Moscow</option>
+            <option value="ljubljana">Ljubljana</option>
+            <option value="berlin">Berlin</option>
+            <option value="rome">Rome</option>
+            <option value="munich">Munich</option>
+            <option value="hamburg">Hamburg</option>
+            <option value="frankfurt">Frankfurt</option>
+            <option value="stuttgart">Stuttgart</option>
+            <option value="cologne">Cologne</option>
+            <option value="dusseldirf">Dusseldirf</option>
+            <option value="dresden">Dresden</option>
+            <option value="hanover">Hanover</option>
+            <option value="leipzig">Leipzig</option>
+            <option value="nuremberg">Nuremberg</option>
+            <option value="freiburg">Freiburg</option>
+            <option value="dortmund">Dortmund</option>
+            <option value="karlsruhe">Karlsruhe</option>
+            <option value="mannheim">Mannheim</option>
+            <option value="heidelberg">Heidelberg</option>
+            <option value="bremen">Bremen</option>
+            <option value="essen">Essen</option>
+            <option value="duisberg">Duisberg</option>
+        </select>
+        <br>
+        
+        <label for="arrival_station">choose arrival station: </label>
+        <select name="arrival_station" id="arrival_station">
+            <option value="london">London</option>
+            <option value="moscow">Moscow</option>
+            <option value="ljubljana">Ljubljana</option>
+            <option value="berlin">Berlin</option>
+            <option value="rome">Rome</option>
+            <option value="munich">Munich</option>
+            <option value="hamburg">Hamburg</option>
+            <option value="frankfurt">Frankfurt</option>
+            <option value="stuttgart">Stuttgart</option>
+            <option value="cologne">Cologne</option>
+            <option value="dusseldirf">Dusseldirf</option>
+            <option value="dresden">Dresden</option>
+            <option value="hanover">Hanover</option>
+            <option value="leipzig">Leipzig</option>
+            <option value="nuremberg">Nuremberg</option>
+            <option value="freiburg">Freiburg</option>
+            <option value="dortmund">Dortmund</option>
+            <option value="karlsruhe">Karlsruhe</option>
+            <option value="mannheim">Mannheim</option>
+            <option value="heidelberg">Heidelberg</option>
+            <option value="bremen">Bremen</option>
+            <option value="essen">Essen</option>
+            <option value="duisberg">Duisberg</option>
+        </select>
+        <br>
+        <label for="date">Choose Date: </label>
+        <input type="date" id = 'date' name = "date">
+        <br>
+        <label for="adult">Choose number of adults: </label>
+        <select name="adult" id="adult">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <label for="children">Choose number of children</label>
+        <select name="children" id="children">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
