@@ -1,5 +1,6 @@
 from flask import Flask,request,render_template
 import requests
+import webbrowser
 app = Flask(__name__)
 
 @app.route('/')
@@ -101,5 +102,6 @@ def bus_station():
     return render_template('result.html',title = "ALL BUS DETAILS",items = bus_all_details)
   except:
     return render_template('result.html',title = "ENTER DETAILS CORRECTLY OR IF ENTERED CORRECTLY THEN BUSES MIGHT NOT BE PRESENT",items = [])
-  
+urll = "http://127.0.0.1:5000"
+webbrowser.open(urll)
 app.run(debug = True)
