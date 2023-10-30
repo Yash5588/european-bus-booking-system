@@ -55,7 +55,7 @@ def bus_station():
   "currency":"EUR"}
 
     headers = {
-  "X-RapidAPI-Key": "1973bac5f8mshf0fd04b7d7d49fbp1dce50jsn56a46a23a197",
+  "X-RapidAPI-Key": "3b06f6dc5dmsh1fb0a14202f3f94p1e13d5jsn7a3cbda51c4e",
   "X-RapidAPI-Host": "flixbus2.p.rapidapi.com"
 }
 
